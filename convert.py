@@ -5,11 +5,8 @@ import os
 import glob
 
 lut={}
-lut["accessory"] =0
-lut["top"]       =1
-lut["bottom"]    =2
-lut["bag"]       =3
-lut["shoes"]     =4
+lut["no_car"] =0
+lut["car"]       =1
 
 
 def convert_coordinates(size, box):
